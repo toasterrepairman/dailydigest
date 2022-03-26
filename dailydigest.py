@@ -6,4 +6,4 @@ size = 384, 128
 
 newimage = pillow.new(pillow.getmodetype('L'), size, "#FFF")
 
-newimage.save("daily " + datetime.today().strftime('%Y-%m-%d') + ".png", "PNG")
+newimage.save("daily " + datetime.today().strftime('%Y-%m-%d') + ".jpg", "JPEG")
